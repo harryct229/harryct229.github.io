@@ -1,5 +1,5 @@
 /*
-	Prologue 1.2 by HTML5 UP
+	Overflow 1.1 by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -8,61 +8,50 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	/* Forms */
+	body
+	{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+	}
 
-		form
+	.button
+	{
+		position: relative;
+		-ms-behavior: url('css/ie/PIE.htc');
+	}
+	
+		.button.style3
 		{
+			background: #fefefe;
+			border: solid 1px #dad9d9;
 		}
-		
-			form input.text,
-			form select,
-			form textarea
-			{
-				-ms-behavior: url('css/PIE.htc');
-			}
-			
-	/* Buttons */
-		
-		.button
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+		#footer .icons
 		{
-			-ms-behavior: url('css/PIE.htc');
+			position: relative;
+			-ms-behavior: url('css/ie/PIE.htc');
 		}
 		
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#nav
+	#header
 	{
 	}
 	
-		#nav ul
+		#header header
 		{
 		}
-		
-			#nav ul li
+
+			#header header p
 			{
+				border-top: solid 1px #888;
 			}
-			
-				#nav ul li a
-				{
-					color: #888;
-				}
-
-					#nav ul li a.active
-					{
-						background: #1C2022;
-					}
-
-/*********************************************************************************/
-/* Side Panel                                                                    */
-/*********************************************************************************/
-
-	#sidePanelToggle
-	{
-	}
-	
-		#sidePanelToggle .toggle
-		{
-			background-color: #888;
-		}
